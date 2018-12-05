@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+}
+.nav{
+float: left;
+width: 20%;
+height: 100vh;
+background-color:rgb(47, 255, 186);
+}
+.head{
+float: left;
+width: 80%;
+height: 20vh;
+background-color:green;
+}
+.article{
+float: left;
+width: 60%;
+height: 60vh;
+background-color:white;
+}
+
+.footer{
+    float: left;
+    width: 80%;
+    height: 20vh;
+    background-color:green;
+}
+@media (max-width: 600px){
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
